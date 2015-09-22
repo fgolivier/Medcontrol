@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846688281BB21704008932BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846688271BB21704008932BC /* AppDelegate.swift */; };
+		8466882A1BB21704008932BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846688291BB21704008932BC /* ViewController.swift */; };
+		8466882D1BB21704008932BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8466882B1BB21704008932BC /* Main.storyboard */; };
+		8466882F1BB21704008932BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8466882E1BB21704008932BC /* Images.xcassets */; };
+		846688321BB21704008932BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846688301BB21704008932BC /* LaunchScreen.xib */; };
+		8466883E1BB21704008932BC /* MedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466883D1BB21704008932BC /* MedControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846688381BB21704008932BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8466881A1BB21704008932BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846688211BB21704008932BC;
+			remoteInfo = MedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846688221BB21704008932BC /* MedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846688261BB21704008932BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846688271BB21704008932BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846688291BB21704008932BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8466882C1BB21704008932BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8466882E1BB21704008932BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		846688311BB21704008932BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		846688371BB21704008932BC /* MedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8466883C1BB21704008932BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8466883D1BB21704008932BC /* MedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedControlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8466881F1BB21704008932BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846688341BB21704008932BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846688191BB21704008932BC = {
+			isa = PBXGroup;
+			children = (
+				846688241BB21704008932BC /* MedControl */,
+				8466883A1BB21704008932BC /* MedControlTests */,
+				846688231BB21704008932BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846688231BB21704008932BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846688221BB21704008932BC /* MedControl.app */,
+				846688371BB21704008932BC /* MedControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846688241BB21704008932BC /* MedControl */ = {
+			isa = PBXGroup;
+			children = (
+				846688271BB21704008932BC /* AppDelegate.swift */,
+				846688291BB21704008932BC /* ViewController.swift */,
+				8466882B1BB21704008932BC /* Main.storyboard */,
+				8466882E1BB21704008932BC /* Images.xcassets */,
+				846688301BB21704008932BC /* LaunchScreen.xib */,
+				846688251BB21704008932BC /* Supporting Files */,
+			);
+			path = MedControl;
+			sourceTree = "<group>";
+		};
+		846688251BB21704008932BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846688261BB21704008932BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8466883A1BB21704008932BC /* MedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				8466883D1BB21704008932BC /* MedControlTests.swift */,
+				8466883B1BB21704008932BC /* Supporting Files */,
+			);
+			path = MedControlTests;
+			sourceTree = "<group>";
+		};
+		8466883B1BB21704008932BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8466883C1BB21704008932BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846688211BB21704008932BC /* MedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846688411BB21704008932BC /* Build configuration list for PBXNativeTarget "MedControl" */;
+			buildPhases = (
+				8466881E1BB21704008932BC /* Sources */,
+				8466881F1BB21704008932BC /* Frameworks */,
+				846688201BB21704008932BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedControl;
+			productName = MedControl;
+			productReference = 846688221BB21704008932BC /* MedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846688361BB21704008932BC /* MedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846688441BB21705008932BC /* Build configuration list for PBXNativeTarget "MedControlTests" */;
+			buildPhases = (
+				846688331BB21704008932BC /* Sources */,
+				846688341BB21704008932BC /* Frameworks */,
+				846688351BB21704008932BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846688391BB21704008932BC /* PBXTargetDependency */,
+			);
+			name = MedControlTests;
+			productName = MedControlTests;
+			productReference = 846688371BB21704008932BC /* MedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8466881A1BB21704008932BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Puc-CCE";
+				TargetAttributes = {
+					846688211BB21704008932BC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					846688361BB21704008932BC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 846688211BB21704008932BC;
+					};
+				};
+			};
+			buildConfigurationList = 8466881D1BB21704008932BC /* Build configuration list for PBXProject "MedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846688191BB21704008932BC;
+			productRefGroup = 846688231BB21704008932BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846688211BB21704008932BC /* MedControl */,
+				846688361BB21704008932BC /* MedControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846688201BB21704008932BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466882D1BB21704008932BC /* Main.storyboard in Resources */,
+				846688321BB21704008932BC /* LaunchScreen.xib in Resources */,
+				8466882F1BB21704008932BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846688351BB21704008932BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8466881E1BB21704008932BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466882A1BB21704008932BC /* ViewController.swift in Sources */,
+				846688281BB21704008932BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846688331BB21704008932BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466883E1BB21704008932BC /* MedControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846688391BB21704008932BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846688211BB21704008932BC /* MedControl */;
+			targetProxy = 846688381BB21704008932BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8466882B1BB21704008932BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8466882C1BB21704008932BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846688301BB21704008932BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846688311BB21704008932BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8466883F1BB21704008932BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846688401BB21704008932BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846688421BB21704008932BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		846688431BB21704008932BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		846688451BB21705008932BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedControl.app/MedControl";
+			};
+			name = Debug;
+		};
+		846688461BB21705008932BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedControl.app/MedControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8466881D1BB21704008932BC /* Build configuration list for PBXProject "MedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8466883F1BB21704008932BC /* Debug */,
+				846688401BB21704008932BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846688411BB21704008932BC /* Build configuration list for PBXNativeTarget "MedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846688421BB21704008932BC /* Debug */,
+				846688431BB21704008932BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846688441BB21705008932BC /* Build configuration list for PBXNativeTarget "MedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846688451BB21705008932BC /* Debug */,
+				846688461BB21705008932BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8466881A1BB21704008932BC /* Project object */;
+}
