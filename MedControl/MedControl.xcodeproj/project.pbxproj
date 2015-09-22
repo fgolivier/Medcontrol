@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571C85F71BB2180A00555842 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C85F61BB2180A00555842 /* JSONManager.swift */; };
 		846688281BB21704008932BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846688271BB21704008932BC /* AppDelegate.swift */; };
 		8466882A1BB21704008932BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846688291BB21704008932BC /* ViewController.swift */; };
 		8466882D1BB21704008932BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8466882B1BB21704008932BC /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571C85F61BB2180A00555842 /* JSONManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		571C85F81BB2182E00555842 /* JSONTestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JSONTestData.json; sourceTree = "<group>"; };
 		846688221BB21704008932BC /* MedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846688261BB21704008932BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846688271BB21704008932BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				846688271BB21704008932BC /* AppDelegate.swift */,
 				846688291BB21704008932BC /* ViewController.swift */,
 				8466882B1BB21704008932BC /* Main.storyboard */,
+				571C85F61BB2180A00555842 /* JSONManager.swift */,
+				571C85F81BB2182E00555842 /* JSONTestData.json */,
 				8466882E1BB21704008932BC /* Images.xcassets */,
 				846688301BB21704008932BC /* LaunchScreen.xib */,
 				846688251BB21704008932BC /* Supporting Files */,
@@ -213,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8466882A1BB21704008932BC /* ViewController.swift in Sources */,
+				571C85F71BB2180A00555842 /* JSONManager.swift in Sources */,
 				846688281BB21704008932BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +417,7 @@
 				846688431BB21704008932BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846688441BB21705008932BC /* Build configuration list for PBXNativeTarget "MedControlTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				846688461BB21705008932BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
