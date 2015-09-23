@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>394EB8D4-297F-47F0-8145-DFE54248F994</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MedControl</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>100B4EFDBA0351DA623154E56102C9CCCEE677B7</key>
 		<string>https://github.com/fgolivier/Medcontrol.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MedControl/MedControl.xcodeproj/project.xcworkspace</string>
+	<string>MedControl/MedControl.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>100B4EFDBA0351DA623154E56102C9CCCEE677B7</key>
