@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MedControlViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
