@@ -1,0 +1,34 @@
+{
+    "controle" : [
+        {
+            "description" : "Xarope A",
+            "dosage" : "50 ml",
+            "interval" : "6",
+            "interval unit" : "hour",
+            "start" : "09/20/2015",
+            "end" : "09/27/2015",
+            "next take at" : "14:00",
+            "take history" : "[]"
+        },
+        {
+            "description" : "Pilula B",
+            "dosage" : "1 capsula",
+            "interval" : "1",
+            "interval unit" : "day",
+            "start" : "09/20/2015",
+            "end" : "09/27/2015",
+            "next take at" : "20:00",
+            "take history" : "[09/20/2015 16:00]"
+        },
+        {
+            "description" : "Remedio C",
+            "dosage" : "10 gotas",
+            "interval" : "8",
+            "interval unit" : "hour",
+            "start" : "09/20/2015",
+            "end" : "09/27/2015",
+            "next take at" : "12:00",
+            "take history" : "[09/21/2015 20:00, 09/22/2015 04:00]"
+        }
+    ]
+}
