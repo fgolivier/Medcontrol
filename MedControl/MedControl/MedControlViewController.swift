@@ -25,6 +25,9 @@ class MedControlViewController: UIViewController, UITableViewDataSource, UITable
         // Dispose of any resources that can be recreated.
     }
     
+    
+    // Funções TableViewDatasource
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
@@ -36,6 +39,7 @@ class MedControlViewController: UIViewController, UITableViewDataSource, UITable
         return emUsoMedCtl
     }
     
+    // Função TableViewDelegate
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
     }
