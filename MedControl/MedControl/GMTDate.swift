@@ -327,6 +327,7 @@ var agora = NSDate()
 var próximadose = agora + 12.hours
 var últimadose = próximadose + 2.weeks + 1.day + 13.hours + 57.minutes
 
+
 // No playground o if abaixo funciona mas está dando um erro, comentei
 
 //if (últimadose > próximadose)  {
