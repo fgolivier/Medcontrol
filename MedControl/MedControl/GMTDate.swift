@@ -322,12 +322,10 @@ let natal = dateMaker.dateFromString("2015/12/25 00:00:00 -02:00")!
 
 // todas as datas são armazenadas internamente como segundos GMT a partir do início do milênio, então lidar com time zones é o menor dos problemas.
 
-var agora = NSDate()
+// var agora = NSDate()
 
-var próximadose = agora + 12.hours
-var últimadose = próximadose + 2.weeks + 1.day + 13.hours + 57.minutes
-
-
+// var próximadose = agora + 12.hours
+// var últimadose = próximadose + 2.weeks + 1.day + 13.hours + 57.minutes
 // No playground o if abaixo funciona mas está dando um erro, comentei
 
 //if (últimadose > próximadose)  {
